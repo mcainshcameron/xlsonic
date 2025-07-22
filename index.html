@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xlsonics - Hear Your Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <div class="logo">xlsonics</div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#vision">Vision</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Stop Staring at Data.</h1>
+                    <h2>Start Feeling It.</h2>
+                    <p>A seismic shift in human-computer interaction. We translate your spreadsheet into a living, breathing auditory landscape.</p>
+                    <a href="#" class="cta-button">Request Early Access</a>
+                </div>
+                <div id="hero-visual-3d" class="hero-visual"></div>
+            </section>
+
+            <section id="upload-demo" class="demo">
+                <h2>Try It With Your Data</h2>
+                <p class="subtitle">Upload your own CSV file to hear its sonic representation.</p>
+                <div class="upload-container">
+                    <input type="file" id="csv-upload" accept=".csv">
+                    <label for="csv-upload" class="cta-button">
+                        <i class="fas fa-upload"></i> Upload CSV
+                    </label>
+                    <p id="file-name"></p>
+                </div>
+            </section>
+
+            <section id="features" class="features">
+                <h2>Perception, Evolved.</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>Unlock a New Sense</h3>
+                        <p>Listen to the rhythm of your supply chain, hear the crescendo of rising profits, and detect the subtle dissonance of an emerging market risk.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Analyze Anywhere</h3>
+                        <p>Absorb global sales data on your commute, during a run, or away from your screen. Free your eyes, not your focus.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Intuitive Clarity</h3>
+                        <p>Comprehend complex results with a clarity that sight alone could never provide. The power to understand is no longer limited by what you can see.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="demo" class="demo">
+                <h2>Hear It for Yourself</h2>
+                <p class="subtitle">Select a data row and press play to hear its unique sonic signature.</p>
+                <div class="demo-container">
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Client</th>
+                                    <th>Age</th>
+                                    <th>Income</th>
+                                    <th>Card Tier</th>
+                                    <th>Credit Limit</th>
+                                    <th>Transactions</th>
+                                    <th>Utilization</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>7688...</td>
+                                    <td>45</td>
+                                    <td>$60K - $80K</td>
+                                    <td>Blue</td>
+                                    <td>12,691</td>
+                                    <td>42</td>
+                                    <td>6.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>8187...</td>
+                                    <td>49</td>
+                                    <td>< $40K</td>
+                                    <td>Blue</td>
+                                    <td>8,256</td>
+                                    <td>33</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>7139...</td>
+                                    <td>51</td>
+                                    <td>$80K - $120K</td>
+                                    <td>Blue</td>
+                                    <td>3,418</td>
+                                    <td>20</td>
+                                    <td>0%</td>
+                                </tr>
+                                 <tr>
+                                    <td>7699...</td>
+                                    <td>40</td>
+                                    <td>< $40K</td>
+                                    <td>Blue</td>
+                                    <td>3,313</td>
+                                    <td>20</td>
+                                    <td>76.0%</td>
+                                </tr>
+                                 <tr>
+                                    <td>7091...</td>
+                                    <td>40</td>
+                                    <td>$60K - $80K</td>
+                                    <td>Blue</td>
+                                    <td>4,716</td>
+                                    <td>28</td>
+                                    <td>0%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="audio-player-container">
+                        <div class="audio-player">
+                            <canvas class="audio-visualizer"></canvas>
+                            <div class="player-controls">
+                                <button class="play-button" data-track="audio/examplemp3_g4Lhk1lj.mp3"><i class="fas fa-play"></i></button>
+                                <div class="track-info">
+                                    <h4>Overall Market Trend</h4>
+                                    <p>A balanced auditory overview of the entire dataset.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="audio-player">
+                            <canvas class="audio-visualizer"></canvas>
+                            <div class="player-controls">
+                                <button class="play-button" data-track="audio/examplemp3_vwd6D3Jy.mp3"><i class="fas fa-play"></i></button>
+                                <div class="track-info">
+                                    <h4>High-Value Segment</h4>
+                                    <p>Focus on clients with income > $80K and high credit limits.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="audio-player">
+                            <canvas class="audio-visualizer"></canvas>
+                            <div class="player-controls">
+                                <button class="play-button" data-track="audio/examplemp3_ZUdCrXm5.mp3"><i class="fas fa-play"></i></button>
+                                <div class="track-info">
+                                    <h4>Attrition Risk Anomaly</h4>
+                                    <p>Listen for the dissonant pattern indicating potential churn.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="vision" class="vision">
+                <h2>The future of data isn't on a screen.</h2>
+                <p>It's in the air around you.</p>
+            </section>
+        </main>
+
+        <footer id="contact">
+            <p>&copy; 2025 xlsonics Inc. The Next Leap.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
