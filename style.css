@@ -211,6 +211,8 @@ nav a:hover {
     border-radius: 15px;
     padding: 20px;
     backdrop-filter: blur(10px);
+    overflow: auto;
+    max-height: 400px;
 }
 
 table {

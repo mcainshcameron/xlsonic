@@ -15,6 +15,7 @@
             <div class="logo">xlsonics</div>
             <nav>
                 <a href="#features">Features</a>
+                <a href="#ai-power">AI Power</a>
                 <a href="#vision">Vision</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -29,18 +30,6 @@
                     <a href="#" class="cta-button">Request Early Access</a>
                 </div>
                 <div id="hero-visual-3d" class="hero-visual"></div>
-            </section>
-
-            <section id="upload-demo" class="demo">
-                <h2>Try It With Your Data</h2>
-                <p class="subtitle">Upload your own CSV file to hear its sonic representation.</p>
-                <div class="upload-container">
-                    <input type="file" id="csv-upload" accept=".csv">
-                    <label for="csv-upload" class="cta-button">
-                        <i class="fas fa-upload"></i> Upload CSV
-                    </label>
-                    <p id="file-name"></p>
-                </div>
             </section>
 
             <section id="features" class="features">
@@ -61,6 +50,24 @@
                 </div>
             </section>
 
+            <section id="ai-power" class="features">
+                <h2>The Power of AI</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>AI-Driven Sonification</h3>
+                        <p>Our advanced AI algorithms intelligently map your data to sound, highlighting trends, anomalies, and correlations that visual analysis alone would miss.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Adaptive Soundscapes</h3>
+                        <p>The AI learns from your data, creating unique sonic landscapes that evolve and adapt to give you the most intuitive understanding of your information.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Beyond Human Perception</h3>
+                        <p>Leveraging the power of artificial intelligence, we can now perceive data in ways previously unimaginable, unlocking a new era of insight and discovery.</p>
+                    </div>
+                </div>
+            </section>
+
             <section id="demo" class="demo">
                 <h2>Hear It for Yourself</h2>
                 <p class="subtitle">Select a data row and press play to hear its unique sonic signature.</p>
@@ -69,60 +76,98 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Client</th>
-                                    <th>Age</th>
-                                    <th>Income</th>
-                                    <th>Card Tier</th>
-                                    <th>Credit Limit</th>
-                                    <th>Transactions</th>
-                                    <th>Utilization</th>
+                                    <th>CLIENTNUM</th>
+                                    <th>Attrition_Flag</th>
+                                    <th>Customer_Age</th>
+                                    <th>Gender</th>
+                                    <th>Dependent_count</th>
+                                    <th>Education_Level</th>
+                                    <th>Marital_Status</th>
+                                    <th>Income_Category</th>
+                                    <th>Card_Category</th>
+                                    <th>Months_on_book</th>
+                                    <th>Total_Relationship_Count</th>
+                                    <th>Months_Inactive_12_mon</th>
+                                    <th>Contacts_Count_12_mon</th>
+                                    <th>Credit_Limit</th>
+                                    <th>Total_Revolving_Bal</th>
+                                    <th>Avg_Open_To_Buy</th>
+                                    <th>Total_Amt_Chng_Q4_Q1</th>
+                                    <th>Total_Trans_Amt</th>
+                                    <th>Total_Trans_Ct</th>
+                                    <th>Total_Ct_Chng_Q4_Q1</th>
+                                    <th>Avg_Utilization_Ratio</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>7688...</td>
+                                    <td>768805383</td>
+                                    <td>Existing Customer</td>
                                     <td>45</td>
+                                    <td>M</td>
+                                    <td>3</td>
+                                    <td>High School</td>
+                                    <td>Married</td>
                                     <td>$60K - $80K</td>
                                     <td>Blue</td>
-                                    <td>12,691</td>
+                                    <td>39</td>
+                                    <td>5</td>
+                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>12691</td>
+                                    <td>777</td>
+                                    <td>11914</td>
+                                    <td>1.335</td>
+                                    <td>1144</td>
                                     <td>42</td>
-                                    <td>6.1%</td>
+                                    <td>1.625</td>
+                                    <td>0.061</td>
                                 </tr>
                                 <tr>
-                                    <td>8187...</td>
+                                    <td>818770008</td>
+                                    <td>Existing Customer</td>
                                     <td>49</td>
-                                    <td>< $40K</td>
+                                    <td>F</td>
+                                    <td>5</td>
+                                    <td>Graduate</td>
+                                    <td>Single</td>
+                                    <td>Less than $40K</td>
                                     <td>Blue</td>
-                                    <td>8,256</td>
+                                    <td>44</td>
+                                    <td>6</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>8256</td>
+                                    <td>864</td>
+                                    <td>7392</td>
+                                    <td>1.541</td>
+                                    <td>1291</td>
                                     <td>33</td>
-                                    <td>10.5%</td>
+                                    <td>3.714</td>
+                                    <td>0.105</td>
                                 </tr>
                                 <tr>
-                                    <td>7139...</td>
+                                    <td>713982108</td>
+                                    <td>Existing Customer</td>
                                     <td>51</td>
+                                    <td>M</td>
+                                    <td>3</td>
+                                    <td>Graduate</td>
+                                    <td>Married</td>
                                     <td>$80K - $120K</td>
                                     <td>Blue</td>
-                                    <td>3,418</td>
+                                    <td>36</td>
+                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>3418</td>
+                                    <td>0</td>
+                                    <td>3418</td>
+                                    <td>2.594</td>
+                                    <td>1887</td>
                                     <td>20</td>
-                                    <td>0%</td>
-                                </tr>
-                                 <tr>
-                                    <td>7699...</td>
-                                    <td>40</td>
-                                    <td>< $40K</td>
-                                    <td>Blue</td>
-                                    <td>3,313</td>
-                                    <td>20</td>
-                                    <td>76.0%</td>
-                                </tr>
-                                 <tr>
-                                    <td>7091...</td>
-                                    <td>40</td>
-                                    <td>$60K - $80K</td>
-                                    <td>Blue</td>
-                                    <td>4,716</td>
-                                    <td>28</td>
-                                    <td>0%</td>
+                                    <td>2.333</td>
+                                    <td>0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -131,9 +176,9 @@
                         <div class="audio-player">
                             <canvas class="audio-visualizer"></canvas>
                             <div class="player-controls">
-                                <button class="play-button" data-track="audio/examplemp3_g4Lhk1lj.mp3"><i class="fas fa-play"></i></button>
+                                <button class="play-button" data-track="audio/examplemp3_ZUdCrXm5.mp3"><i class="fas fa-play"></i></button>
                                 <div class="track-info">
-                                    <h4>Overall Market Trend</h4>
+                                    <h4>Headers to get started</h4> 
                                     <p>A balanced auditory overview of the entire dataset.</p>
                                 </div>
                             </div>
@@ -151,7 +196,7 @@
                         <div class="audio-player">
                             <canvas class="audio-visualizer"></canvas>
                             <div class="player-controls">
-                                <button class="play-button" data-track="audio/examplemp3_ZUdCrXm5.mp3"><i class="fas fa-play"></i></button>
+                                <button class="play-button" data-track="audio/examplemp3_g4Lhk1lj.mp3"><i class="fas fa-play"></i></button>
                                 <div class="track-info">
                                     <h4>Attrition Risk Anomaly</h4>
                                     <p>Listen for the dissonant pattern indicating potential churn.</p>
@@ -164,7 +209,7 @@
 
             <section id="vision" class="vision">
                 <h2>The future of data isn't on a screen.</h2>
-                <p>It's in the air around you.</p>
+                <p>It's in the air around you, powered by AI.</p>
             </section>
         </main>
 
