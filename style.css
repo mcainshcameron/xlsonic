@@ -239,7 +239,6 @@ nav a:hover::after {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
-    height: 100%;
     backdrop-filter: blur(10px);
 }
 
@@ -557,6 +556,16 @@ footer {
         flex-direction: column;
     }
 
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        min-width: 100%;
+    }
+
     .hero-text h1 {
         font-size: 3rem;
     }
@@ -571,10 +580,7 @@ footer {
 
     .feature-grid, .pricing-grid {
         grid-template-columns: 1fr;
-    }
-
-    .pricing-card {
-        margin-bottom: 30px;
+        gap: 50px;
     }
 
     .pricing-card.featured {
