@@ -1,0 +1,10 @@
+I want some of the description to talk about how we are so focused o nusing AI to go from unstrucutred verbal language
+to strucutred tabular data, when actually the real key is transforming already strucutred data into complex unstrucutred natural language.
+
+Are brains are not made to ingest clearly organized strucutred data, but we are born to take complext mathematical data trhough 
+trhough natuaral language. xlsonic makes this happen thanks to AI.
+
+The pricing schemes should be even more outragesly and unnecessarly complex, tokens, word-cells (call them wells per second on transonificAItion)
+
+
+the 3 samples should be named more approtietlu, the frist is the headers, the second is the frist row and the 3 is a sample of a random row.
